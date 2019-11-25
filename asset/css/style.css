@@ -1,0 +1,55 @@
+/* body {
+background-color: blue;
+} */
+h3 {color:purple;
+}
+.ade {
+ font-size: 64px; text-align: right;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blueviolet;
+    font-size: 34px;
+  }
+  
+  
+  .google {
+    font-size: 64px; text-align: right;
+  }
+
+    .btn {
+       color: white;
+       background-color: chocolate;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
+      margin-left: 50px;
+      margin-bottom: 50px;
+      font-size: 32px;
+      font-weight: 50px;
+    }
+    p {
+      color: blueviolet;
+      font-size: 40px;
+      text-align: center;
+     
+
+    }
+    
+    
+    /* body {
+      background-color: blue; */
+
+    
