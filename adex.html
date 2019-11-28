@@ -23,7 +23,11 @@
                         </div>
                         <hr class="small-line"/>
                         <img src="./asset/images/b0e5861e8b9304b0078d3569728f96fa-cart.png"height="200px" width="200px" />
-                        <button type="button" class="btn btn-light">
+                        <button 
+                        onclick="changeView()"
+                        id="changeTxt"
+                        type="button" 
+                        class="btn btn-light">
                                 View Shopping Cart
                         </button>
                         <hr class="small-line" />
@@ -35,8 +39,9 @@
                 <input class="xty form-control mr-sm-2" type="search"  placeholder="search" aria-label="search" />
                  <span class="fas fa-search"></span>
                  <hr>
-
-<div class="empty-top"></div>
+            
+         <div id="viewShoppingCart">   
+        <div class="empty-top"></div>
         <div class= "items">
             <br>
             <div class="item">
@@ -55,12 +60,12 @@
             <p> Item name: Jeans <span class="quantity"><label>Quantity:</label><input type="text"></span></p>
             <p> Price: <span class="price">N7000</span></p>
             <button class="add-cart">Add to cart</button>
-
+                </div>
           </div>             
         </div>
 
        
-    
+        <div id="selectShoppingCart">
         <div class="empty-top"></div>
         <div class="items">
             <table class="table">
@@ -85,12 +90,14 @@
                     <td class="remove-button">REMOVE</td>
                 </tr>
                 </tbody>
-            </table>      
+            </table> 
+            </div>     
         </div>
         </div>
     </div>
 </div>
         
         <script src="./asset/js/bootstrap.min.js"></script>
+        <script src="./asset/js/shopping.js"></script>
     </body>
 </html>
